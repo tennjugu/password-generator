@@ -1,0 +1,66 @@
+* {
+  font-size: 1em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(6, 47, 61);
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#root {
+  padding-top: 20px;
+}
+
+#root h1 {
+
+  text-align: center;
+}
+
+.first-head {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+button {
+  background-color: rgb(8, 75, 127);
+  border: none;
+  color: white;
+}
+
+.password-container {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+}
+
+.passwordfields {
+  display: flex;
+}
+
+.passwordfields input {
+  outline: none;
+  flex: 1;
+}
+
+.criteria {
+  display: flex;
+  align-items: baseline;
+  font-size: 10px;
+  padding-bottom: 20px;
+}
+
+.checkbox {
+  display: flex;
+ align-items: center;
+}
+
+.passwordfields input,
+.checkbox {
+  color: orange;
+}
